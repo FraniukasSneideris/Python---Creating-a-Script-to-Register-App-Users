@@ -1,6 +1,9 @@
 import argparse
 
 class Validate:
+    # The functions in this class are the ones that already come with the project instructions
+    # I only integrated said functions in a class to allow OOP structure
+    
     def __init__(self, name, email, password):
         self.name = name
         self.email = email
@@ -78,7 +81,7 @@ class Validate:
       else:
           return False
 
-
+# From here onwards, all the functions were created by me
 
 class RegisterUser(Validate):
 
