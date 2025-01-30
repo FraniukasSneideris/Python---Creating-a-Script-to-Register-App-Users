@@ -1,6 +1,6 @@
 # Python-Creating-a-Script-to-Register-App-Users
 
-This project enhances a simple user registration system by improving its modularity and functionality. The original idea comes from a DataCamp project that focuses on validating and registering individual users. This project expands on that by introducing Object-Oriented Programming (OOP), enhancing the structure, and allowing bulk user registration from a CSV file.
+This project enhances a simple user registration system by improving its modularity and functionality. The original idea comes from the DataCamp project "Creating Functions to Register App Users" which focuses on validating and registering individual users. This project expands on that by introducing Object-Oriented Programming (OOP), enhancing the structure, introducing Common-Line Interface (CLI) and allowing bulk user registration from a CSV file.
 
 ## Project Overview
 
@@ -41,9 +41,11 @@ This class allows for bulk user registration from a CSV file. It includes method
 - **process_user_data**: Processes the raw data from the CSV file into a usable format.
 - **register_bulk**: Registers users from the processed CSV data.
 
+*Please note*: This class and it's functionalities assume that the data has been previously cleaned before. 
+
 ## How to Use
 
-You can run the system from the command line to validate or register users individually, or to process bulk user registrations from a CSV file.
+You can run the system from the command line to validate or register users individually, or to process bulk user registrations from a CSV file (there is a user_data.csv file in this repository which you can use to try).
 
 ### Validating a Single User
 python register_user.py "John Doe" "johndoe@example.com" "Password123" validate
