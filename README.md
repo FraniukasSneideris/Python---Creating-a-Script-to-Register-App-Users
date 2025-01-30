@@ -46,15 +46,12 @@ This class allows for bulk user registration from a CSV file. It includes method
 You can run the system from the command line to validate or register users individually, or to process bulk user registrations from a CSV file.
 
 ### Validating a Single User
-```bash
 python register_user.py "John Doe" "johndoe@example.com" "Password123" validate
 
 ### Registering a Single User
-```bash
 python register_user.py "John Doe" "johndoe@example.com" "Password123" register
 
 ### Bulk registration
-```bash
 python register_user.py --bulk --file *file.csv*
 
 ### Dependencies
@@ -65,5 +62,5 @@ python register_user.py --bulk --file *file.csv*
 - Modular Design: The system's structure is improved using OOP principles, making it easier to expand or modify in the future.
 - CSV Support: Added functionality for bulk user registration, making it scalable for applications needing to register many users at once.
 
-##Conclusion
+## Conclusion
 This project started as a simple user registration system and evolved into a more flexible, scalable solution through modular programming, OOP, and bulk registration support. It provides a solid foundation for handling user registration in small to medium-sized applications, and can easily be extended or integrated into larger systems.
