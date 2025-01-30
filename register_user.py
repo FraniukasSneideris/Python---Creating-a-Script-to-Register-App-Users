@@ -6,8 +6,6 @@ class Validate:
         self.email = email
         self.password = password
 
-    #registered_users = []
-
     def validate_name(self):
       """ Checks that the name is greater than two characters and is a string data type.
 
