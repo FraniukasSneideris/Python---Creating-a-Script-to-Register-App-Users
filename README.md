@@ -45,16 +45,16 @@ This class allows for bulk user registration from a CSV file. It includes method
 
 ## How to Use
 
-You can run the system from the command line to validate or register users individually, or to process bulk user registrations from a CSV file (there is a user_data.csv file in this repository which you can use to try).
+You can run the system from the command line to validate or register users individually, or to process bulk user registrations from a CSV file (you can use user_data.csv file, which I included in this repository).
 
 ### Validating a Single User
-python register_user.py "John Doe" "johndoe@example.com" "Password123" validate
+*python register_user.py "John Doe" "johndoe@example.com" "Password123" validate*
 
 ### Registering a Single User
-python register_user.py "John Doe" "johndoe@example.com" "Password123" register
+*python register_user.py "John Doe" "johndoe@example.com" "Password123" register*
 
 ### Bulk registration
-python register_user.py --bulk --file *file.csv*
+*python register_user.py --bulk --file user_data.csv* 
 
 ### Dependencies
 - Python 3.x
