@@ -43,8 +43,9 @@ This class allows for bulk user registration from a CSV file. It includes method
 
 ## How to Use
 
-You can run the system from the command line to validate or register users individually, or to process bulk user registrations from a CSV file. If you wish to try the bulk registration, feel free to use the files I've added to the repository: *user_data.csv* (clean data), or *tampered_user_data_(...).csv* (user_data.csv with alterations in name, email and password respectively).
-Please note, that for single validation/registration quotations will be needed for the name as it has spaces.
+You can run the system from the command line to validate or register users individually, or to process bulk user registrations from a CSV file. 
+If you wish to try the bulk registration, feel free to use the files I've added to the repository: *user_data.csv* (clean data), or *tampered_user_data_(...).csv* (user_data.csv with alterations in name, email and password respectively).
+Please note that for single validation/registration quotations will be needed for the name as it has spaces.
 
 #### Validating a Single User
 *python register_user.py "John Doe" johndoe@example.com Password123 validate*
