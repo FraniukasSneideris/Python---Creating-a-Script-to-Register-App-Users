@@ -48,14 +48,12 @@ If you wish to try the bulk registration, feel free to use the files I've added 
 
 Please note that for single validation/registration quotations will be needed for the name as it has spaces.
 
-#### Validating a Single User
-*python register_user.py "John Doe" johndoe@example.com Password123 validate*
-
-#### Registering a Single User
-*python register_user.py "John Doe" johndoe@example.com Password123 register*
-
-#### Bulk validation + registration
-*python register_user.py --bulk --file user_data.csv* 
+- #### Validating a Single User
+   *python register_user.py "John Doe" johndoe@example.com Password123 validate*
+- #### Registering a Single User
+   *python register_user.py "John Doe" johndoe@example.com Password123 register*
+- #### Bulk validation + registration
+   *python register_user.py --bulk --file user_data.csv* 
 
 
 ### Dependencies
