@@ -39,9 +39,7 @@ This class inherits from `Validate` and adds functionality for user registration
 This class allows for bulk user registration from a CSV file. It includes methods for:
 - **open_user_data**: Reads the CSV file containing user data.
 - **process_user_data**: Processes the raw data from the CSV file into a usable format.
-- **register_bulk**: Registers users from the processed CSV data.
-
-*Please note*: This class and it's functionalities assume that the data has been previously cleaned before. 
+- **register_bulk**: Validates and, if validation is completed, registers users from the processed CSV data. 
 
 ## How to Use
 
